@@ -1,6 +1,14 @@
 This is a custom Java thread pool implementation used to solve the classic
 readers-writers concurrency problem.
 
+All self-written code is inside the `src/main/java/org/apd/threadpool` and
+`src/main/java/org/apd/executor/worker` directories and
+`src/main/java/org/apd/executor/TaskExecutor.java`.
+
+A performance analysis of the solution is available inside `README.md.old`.
+
+## Implementation details
+
 The thread pool is implemented inside `src/main/java/org/apd/threadpool`.
 
 The readers-writers problem is solved using 3 methods, implemented inside
